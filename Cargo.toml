@@ -1,0 +1,11 @@
+[package]
+name = "chords-quiz"
+version = "0.0.1"
+authors = ["Lesha Koss <lesha.kostiuchenko@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+rand = "0.3"
+midir = { git = "https://github.com/Boddlnagg/midir" }
+wmidi = "3.1.0"
+colored = "1.9"
