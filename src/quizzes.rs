@@ -23,11 +23,70 @@ pub struct Quiz {
 
 const QUIZES: &'static [Quiz] = &[
     Quiz {
-        name: "Fifths",
+        name: "Perfect fifths",
         options: &[QuizOption {
             name: " + fifth",
-            signature: &[7],
+            signature: &[0, 7],
         }],
+    },
+    Quiz {
+        name: "Thirds",
+        options: &[
+            QuizOption {
+                name: " + major third",
+                signature: &[0, 4],
+            },
+            QuizOption {
+                name: " + minor third",
+                signature: &[0, 3],
+            },
+        ],
+    },
+    Quiz {
+        name: "Sevenths",
+        options: &[
+            QuizOption {
+                name: " + 7",
+                signature: &[0, 11],
+            },
+            QuizOption {
+                name: " + b7",
+                signature: &[0, 10],
+            },
+        ],
+    },
+    Quiz {
+        name: "Ninths",
+        options: &[
+            QuizOption {
+                name: " + 9",
+                signature: &[0, 2],
+            },
+            QuizOption {
+                name: " + b9",
+                signature: &[0, 1],
+            },
+        ],
+    },
+    Quiz {
+        name: "Eleventh",
+        options: &[QuizOption {
+            name: " + eleventh",
+            signature: &[0, 5],
+        }],
+    },
+    Quiz {
+        name: "Thirteenths",
+        options: &[
+            QuizOption {
+                name: " + 13",
+                signature: &[0, 9],
+            },
+            QuizOption {
+                name: " + b13",
+                signature: &[0, 8],
+            },
+        ],
     },
     Quiz {
         name: "Major and minor chords",
